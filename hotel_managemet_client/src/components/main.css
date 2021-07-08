@@ -1,0 +1,16 @@
+figcaption {
+    position: absolute;
+    bottom: 20rem;
+    margin: 0 5rem;
+    color: white;
+    font-family: 'Rochester', cursive;
+    font-size: 5em;
+}
+
+
+
+.book  {
+position: absolute;
+    bottom: 17rem;
+    margin: 0 4rem;
+}
