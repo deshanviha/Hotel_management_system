@@ -2,40 +2,39 @@ import {useState} from 'react';
 import Backdrop from './Backdrop';
 import Modal from './Modal';
 
-function Home(props){
+function Home(props) {
 
-const [modalIsopen, setModalIsOpen]  = useState(false);
+    const [modalIsopen, setModalIsOpen] = useState(false);
 
 
-function bookingHandler(){
+    function bookingHandler() {
 
-setModalIsOpen(true);
+        setModalIsOpen(true);
 
-}
+    }
 
-function closeModelHandler(){
+    function closeModelHandler() {
 
         setModalIsOpen(false);
 
-}
+    }
 
 
-return(
+    return (
 
-<div className='card'>
-    <h2>{props.text}</h2>
-        <div className='actions'>
-<button className='btn' onClick={bookingHandler} >booking</button>
+        <div className='card'>
+            <h2>{props.text}</h2>
+            <div className='actions'>
+                <button className='btn' onClick={bookingHandler}>booking</button>
+            </div>
+            {modalIsopen && <Modal onCancel={closeModelHandler} onConfirm={closeModelHandler}/>}
+            {modalIsopen && <Backdrop onCancel={closeModelHandler}/>}
+
+
         </div>
-{modalIsopen && <Modal onCancel={closeModelHandler} onConfirm={closeModelHandler} />}
-{modalIsopen && <Backdrop onCancel={closeModelHandler}   />}       
 
 
-</div>
-
-
-
-);
+    );
 
 }
 

@@ -1,32 +1,17 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from 'react-bootstrap/Image';
-import vacation from '../images/vacation-2302009_1280.jpg';
-
-const style = {
-    maxWidth:'100%'
-
-};
+import vacation from '../images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg';
 
 function Main(){
-    const myStyle={
-        width:'100%',
-        height:'500px',
+    const myStyle = {
+        width: '100%',
+        height: '700px',
     };
-
-
     return(
-
-
         <div className="shoe-container">
             <img src={vacation} alt="" style={myStyle} />
         </div>
-
-
     )
 
-
-
 }
-
 export default Main

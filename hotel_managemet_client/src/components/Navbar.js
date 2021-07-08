@@ -1,14 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar,Nav,Button} from "react-bootstrap";
+import {Navbar, Nav, Button} from "react-bootstrap";
 
 
-function NavBarar(){
+function NavBarar() {
 
-    return(
+    return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
             <Navbar.Brand href="#home">Hotel Logo</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto"/>
 
