@@ -1,7 +1,8 @@
 .special_primary {
-    background: ghostwhite;
+    background: white;
 }
-h3{
+
+h3 {
     font-weight: 100;
     font-size: 30px;
     color: #333;
@@ -10,4 +11,17 @@ h3{
     margin-top: 40px;
     margin-bottom: 15px;
     padding-bottom: 20px;
+}
+
+h3::after {
+
+    position: absolute;
+    content: "";
+    background: #d43031;
+    height: 2px;
+    width: 70px;
+    bottom: 0;
+    margin-left: -35px;
+    left: 50%;
+
 }
