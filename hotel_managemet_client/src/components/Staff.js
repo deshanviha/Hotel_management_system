@@ -1,5 +1,6 @@
 import React from 'react';
 import './staff.css'
+import staff_img from '../images/petr-sevcovic-e5Q5vWO55uU-unsplash.jpg'
 
 function Staff() {
     return (
@@ -10,7 +11,7 @@ function Staff() {
                         <div className="col-md-10 col-md-offset-1">
                             <div className="section-title">
                                 <h2>
-                                    Meet Our Besties
+                                    Our Hospitality
                                 </h2>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare
@@ -21,6 +22,10 @@ function Staff() {
                                 nec ornare.</p>
                         </div>
                     </div>
+                    <div className="col-md-6">
+                        <img src={staff_img} alt="" className="team-img"/>
+                    </div>
+
                 </div>
             </div>
         </div>

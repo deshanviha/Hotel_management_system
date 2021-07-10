@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Nav, Button} from "react-bootstrap";
-
+import about from './About'
 
 function NavBarar() {
 
@@ -18,7 +18,7 @@ function NavBarar() {
                         <Nav.Link href="/home">SPECIAL</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-1">ABOUT</Nav.Link>
+                        <Nav.Link href='/about' eventKey="link-2">ABOUT</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link eventKey="link-2">MENU</Nav.Link>
