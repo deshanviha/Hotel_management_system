@@ -12,10 +12,10 @@
     margin-left: 80px;
 }
 
-h2{
+.section-title h2{
     font-weight: 400;
     font-size: 38px;
-    color: #333;
+    color: black;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 20px;

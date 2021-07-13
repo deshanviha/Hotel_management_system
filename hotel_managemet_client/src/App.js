@@ -5,6 +5,7 @@ import Main from "./components/Main";
 import About from "./components/About";
 import Staff from "./components/Staff";
 import Offers from "./components/Offers";
+import Gallery from "./components/Gallery";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <About/>
         <Staff/>
         <Offers/>
+        <Gallery/>
     </div>;
 }
 
