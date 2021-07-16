@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+h1{
+
+    font-weight: 100;
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    margin-left: 500px;
+}
+
+h1::after{
+    position: absolute;
+    content: "";
+    background: #d43031;
+    height: 2px;
+    width: 70px;
+    bottom: 0;
+    margin-left: -250px;
+
+}
+
+.top1 {
+    height:390px;
+    background-color:#FFFFFF;
+    margin-top:10px;
+    overflow: hidden;
+}
+
+.top1 img {
+    height:100%;
+}
+
+.inside img{
+    width: 350px;
+    Height:200px;
+    margin-left: 100px;
+    margin-top: 50px;
+}

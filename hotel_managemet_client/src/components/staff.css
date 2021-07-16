@@ -10,3 +10,13 @@
     position: relative;
     max-width: 550px;
 }
+.staff h2::after{
+
+    position: absolute;
+    content: "";
+    background: #d43031;
+    height: 2px;
+    width: 70px;
+    margin-top: 60px;
+    margin-left: -150px;
+}
