@@ -5,6 +5,8 @@ import About from "./components/About";
 import Staff from "./components/Staff";
 import Offers from "./components/Offers";
 import MyGallery from "./components/Gallery";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Staff/>
         <Offers/>
         <MyGallery/>
+        <Contact/>
+        <Footer/>
     </div>;
 }
 
