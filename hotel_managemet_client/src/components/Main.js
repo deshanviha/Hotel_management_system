@@ -2,6 +2,8 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import vacation from '../images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg';
 import './main.css';
+import Signup from './SIgnUp'
+
 import {Button} from "react-bootstrap";
 function Main(){
     const myStyle = {
