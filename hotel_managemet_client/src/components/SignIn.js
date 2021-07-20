@@ -1,18 +1,18 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Button, Form} from "react-bootstrap";
+import {Button, Container, Form} from "react-bootstrap";
+import './signIn.css'
 
-function SIgnUp() {
+function SignIn() {
     return (
-        <div className="signUp">
-            <div className="col-md-6">
+        <Container>
+            <div className="col-md-5">
                 <div className="col-md-10 col-md-offset-1">
                     <div className="section-title">
-                        <h2>
-                            SIGN UP
-                        </h2>
-
-                        <Form>
+                        <Form className="signIN">
+                            <h2>
+                                Sign In
+                            </h2>
                             <Form.Group className="col-mb-6" controlId="formBasicEmail">
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email"/>
@@ -36,8 +36,8 @@ function SIgnUp() {
                     </div>
                 </div>
             </div>
-        </div>
+        </Container>
     );
 }
 
-export default SIgnUp;
+export default SignIn;

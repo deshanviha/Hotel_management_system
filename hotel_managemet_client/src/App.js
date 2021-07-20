@@ -7,7 +7,7 @@ import Offers from "./components/Offers";
 import MyGallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import SIgnUp from "./components/SIgnUp";
+import SignIn from "./components/SignIn";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <MyGallery/>
         <Contact/>
         <Footer/>
-        <SIgnUp/>
+
     </div>;
 }
 
