@@ -1,6 +1,6 @@
 figcaption {
     position: absolute;
-    bottom: 20rem;
+    bottom: 30rem;
     margin: 0 5rem;
     color: white;
     font-family: 'Rochester', cursive;
@@ -9,10 +9,11 @@ figcaption {
 
 .book  {
 position: absolute;
-    bottom: 15rem;
+
     margin: 0 5rem;
 }
 .signing{
 
-    margin-top: -320px;
+    margin-top: -520px;
+    margin-left: -900px;
 }

@@ -2,7 +2,7 @@
 
 .col-md-5{
     background: #800040;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .btn-primary{
@@ -10,9 +10,10 @@
     margin-bottom: 20px;
 }
 
-.signIn h2{
+h2{
     margin-bottom: 20px;
     color: #f6f6f6;
+    margin-top: 50px;
 }
 
 form{
