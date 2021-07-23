@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './contact.css';
 function Contact() {
     return (
 
-
-        <div className="container text-center">
+<div className="reserve">
+        <div className="container">
             <div className="col-md-4">
                 <h3>Reservations</h3>
                 <div className="contact-item">
@@ -28,6 +28,7 @@ function Contact() {
                 </div>
             </div>
         </div>
+</div>
     );
 }
 

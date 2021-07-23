@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import vacation from '../images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg';
 import './main.css';
 import Signup from './SignIn'
-import {Button} from "react-bootstrap";
+import {Button, Container} from "react-bootstrap";
 import SignIn from "./SignIn";
 
 function Main() {
@@ -15,27 +15,20 @@ function Main() {
 
 
         <div className="shoe-container">
-            <container>
+
+            <Container>
+                <div className="signing">
+                    <SignIn/>
+                </div>
+
+
                 <figure className="position-relative">
-                    <img src={vacation} alt="" style={myStyle}/>
-                    <figcaption>
-
-                        Start Your Day Here
-
-
-                    </figcaption>
-
-
-
+                    {/*<img src={vacation} alt="" style={myStyle}/>*/}
                     <div className="book">
                         <Button variant="danger" size="lg">BOOK NOW</Button>{}
                     </div>
                 </figure>
-            </container>
-
-            <div className="signing">
-                <SignIn/>
-            </div>
+            </Container>
 
         </div>
     )

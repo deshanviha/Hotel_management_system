@@ -1,7 +1,7 @@
 
 
 .col-md-5{
-    background: #800040;
+    background: #003580;
     margin-top: 50px;
 }
 
@@ -12,8 +12,9 @@
 
 h2{
     margin-bottom: 20px;
-    color: #f6f6f6;
     margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: darkgrey;
 }
 
 form{
@@ -27,4 +28,13 @@ form{
 }
 .signIN{
     margin-top: 1px;
+}
+.col-md-5 Button{
+    background: black;
+    border: #777777;
+    align-content: center;
+
+}
+.col-md-5 h2{
+    color: #777777;
 }

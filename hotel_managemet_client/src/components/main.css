@@ -1,19 +1,20 @@
-figcaption {
-    position: absolute;
-    bottom: 30rem;
-    margin: 0 5rem;
-    color: white;
-    font-family: 'Rochester', cursive;
-    font-size: 5em;
-}
-
 .book  {
-position: absolute;
-
     margin: 0 5rem;
 }
 .signing{
-
-    margin-top: -520px;
     margin-left: -900px;
+}
+@media (min-width: 1200px) {
+    .Container{
+        background-color: #777777;
+        color: #262626;
+
+    }
+}
+@media (max-height: 700px) {
+    .Container{
+
+        background-color: #777777;
+        color: #262626;
+    }
 }
