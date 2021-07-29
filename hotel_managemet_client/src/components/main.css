@@ -1,9 +1,6 @@
 .book  {
     margin: 0 5rem;
 }
-.signing{
-    margin-left: -900px;
-}
 @media (min-width: 1200px) {
     .Container{
         background-color: #777777;

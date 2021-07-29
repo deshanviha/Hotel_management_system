@@ -10,9 +10,6 @@ function SignIn() {
                 <div className="col-md-10 col-md-offset-1">
                     <div className="section-title">
                         <Form className="signIN">
-                            <h2>
-                                Sign In
-                            </h2>
                             <Form.Group className="col-mb-6" controlId="formBasicEmail">
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email"/>
@@ -29,7 +26,7 @@ function SignIn() {
                                 <Form.Check type="checkbox" label="Check me out"/>
                             </Form.Group>
                             <Button variant="primary" type="submit">
-                                Submit
+                                Sign In
                             </Button>
                         </Form>
 
