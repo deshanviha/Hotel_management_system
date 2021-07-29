@@ -1,13 +1,17 @@
-
-
-.col-md-5{
-    background: #003580;
-    margin-top: 50px;
-}
-
 .btn-primary{
 
     margin-bottom: 20px;
+}
+
+
+.login-form{
+    width: 100%;
+    max-width: 330px;
+    height: 100%;
+    padding: 30px;
+    color: #800040;
+    background-color: #777777;
+
 }
 
 h2{
@@ -17,18 +21,6 @@ h2{
     color: darkgrey;
 }
 
-form{
-
-    margin-top: 100px;
-}
-.Container{
-
-    width: 100px;
-
-}
-.signIN{
-    margin-top: 1px;
-}
 .col-md-5 Button{
     background: black;
     border: #777777;
@@ -38,3 +30,4 @@ form{
 .col-md-5 h2{
     color: #777777;
 }
+
