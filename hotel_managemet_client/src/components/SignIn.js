@@ -1,12 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Container, Form} from "react-bootstrap";
-import './signIn.css'
-
+import './signIn.css';
+import { FaUserAlt,FaUserCircle,FaFacebook,FaApple} from "react-icons/fa";
+import { FcGoogle} from "react-icons/fc";
 function SignIn() {
     return (
         <Form className="login-form">
             <Form.Group className="col-mb-6" controlId="formBasicEmail">
+
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email"/>
                 <Form.Text className="text-muted">
@@ -23,6 +25,12 @@ function SignIn() {
             <Button variant="primary" type="submit">
                 Sign In
             </Button>
+            <br/>
+            <FaFacebook size="2em"/>
+            <FcGoogle size="2em"/>
+            <FaApple size="2em"/>
+
+
         </Form>
     );
 }

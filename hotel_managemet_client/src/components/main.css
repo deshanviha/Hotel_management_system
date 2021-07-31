@@ -1,5 +1,6 @@
 .book  {
     margin: 0 5rem;
+    text-align: center;
 }
 @media (min-width: 1200px) {
     .Container{

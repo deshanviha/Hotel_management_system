@@ -5,6 +5,10 @@ import './main.css';
 import Signup from './SignIn'
 import {Button, Col, Container, Row} from "react-bootstrap";
 import SignIn from "./SignIn";
+import { BsBook } from "react-icons/bs";
+
+
+
 
 function Main() {
     const myStyle = {
@@ -33,7 +37,7 @@ function Main() {
                 <figure className="position-relative">
                     {/*<img src={vacation} alt="" style={myStyle}/>*/}
                     <div className="book">
-                        <Button variant="danger" size="lg">BOOK NOW</Button>{}
+                        <Button variant="danger" size="lg"><BsBook/> BOOK NOW</Button>{}
                     </div>
                 </figure>
 

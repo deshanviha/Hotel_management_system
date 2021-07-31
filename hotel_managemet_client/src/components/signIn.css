@@ -6,13 +6,11 @@
 
 .login-form{
     width: 100%;
-    max-width: 330px;
+    max-width: 380px;
     height: 100%;
     color: black;
-    background-color: #333333;
-    padding-top: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color:#003580;
+    padding: 70px 30px 30px;
 
 }
 
@@ -32,4 +30,19 @@ h2{
 .col-md-5 h2{
     color: #777777;
 }
+.FaUserAlt{
 
+    color: #61dafb;
+}
+svg{
+
+    color: white;
+    margin-left: 50px;
+
+}
+
+svg .FaUserCircle{
+
+
+
+}
