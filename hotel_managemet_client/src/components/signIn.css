@@ -8,9 +8,11 @@
     width: 100%;
     max-width: 330px;
     height: 100%;
-    padding: 30px;
-    color: #800040;
-    background-color: #777777;
+    color: black;
+    background-color: #333333;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
