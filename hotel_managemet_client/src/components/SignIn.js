@@ -26,6 +26,7 @@ function SignIn() {
                 Sign In
             </Button>
             <br/>
+            <hr/>
             <FaFacebook size="2em"/>
             <FcGoogle size="2em"/>
             <FaApple size="2em"/>

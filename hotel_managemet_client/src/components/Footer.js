@@ -3,7 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.css'
 import {SocialIcon} from 'react-social-icons';
 import {Col, Row} from "react-bootstrap";
-
+import { FaUserAlt,FaUserCircle,FaFacebook,FaApple} from "react-icons/fa";
+import { FcGoogle} from "react-icons/fc";
+import { AiOutlineTwitter,AiOutlineLinkedin } from "react-icons/ai";
 
 function Footer() {
     return (
@@ -16,9 +18,9 @@ function Footer() {
                 </div></Col>
                 <Col><div className="social">
                     <ul>
-                        <li><SocialIcon url="https://linkedin.com/in/jaketrent"/></li>
-                        <li><SocialIcon url="https://facebook.com"/></li>
-                        <li><SocialIcon url="https://twitter.com"/></li>
+                    <li><FaFacebook size="2em"/></li>
+                        <li><AiOutlineTwitter size="2em"/></li>
+                        <li> <AiOutlineLinkedin size="2em"/></li>
                     </ul>
                 </div></Col>
             </Row>

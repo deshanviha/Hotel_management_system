@@ -8,7 +8,7 @@
     width: 100%;
     max-width: 380px;
     height: 100%;
-    color: black;
+    color: white;
     background-color:#003580;
     padding: 70px 30px 30px;
 
@@ -45,4 +45,7 @@ svg .FaUserCircle{
 
 
 
+}
+hr{
+    background-color: #f6f6f6;
 }

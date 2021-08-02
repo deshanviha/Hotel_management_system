@@ -14,7 +14,7 @@ h3 {
     padding-bottom: 20px;
 }
 
-h3::after {
+.special_primary h3::after {
 
     position: absolute;
     content: "";

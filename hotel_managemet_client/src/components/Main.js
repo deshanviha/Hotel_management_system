@@ -36,9 +36,10 @@ function Main() {
 
                 <figure className="position-relative">
                     {/*<img src={vacation} alt="" style={myStyle}/>*/}
-                    <div className="book">
-                        <Button variant="danger" size="lg"><BsBook/> BOOK NOW</Button>{}
-                    </div>
+                    {/*<div className="book">*/}
+                    {/*    <Button variant="danger" size="lg"><BsBook/> BOOK NOW</Button>{}*/}
+                    {/*</div>*/}
+
                 </figure>
 
 
