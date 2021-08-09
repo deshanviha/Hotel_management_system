@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Button, Container, Form} from "react-bootstrap";
+import {Button,Form} from "react-bootstrap";
 import './signIn.css';
-import { FaUserAlt,FaUserCircle,FaFacebook,FaApple} from "react-icons/fa";
+import { FaFacebook,FaApple} from "react-icons/fa";
 import { FcGoogle} from "react-icons/fc";
 function SignIn() {
     return (
@@ -25,7 +25,7 @@ function SignIn() {
             <Button variant="primary" type="submit">
                 Sign In
             </Button>
-            <br/>
+            <p>Forgot Password ?</p>
             <hr/>
             <FaFacebook size="2em"/>
             <FcGoogle size="2em"/>

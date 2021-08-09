@@ -1,11 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.css'
-import {SocialIcon} from 'react-social-icons';
 import {Col, Row} from "react-bootstrap";
-import { FaUserAlt,FaUserCircle,FaFacebook,FaApple} from "react-icons/fa";
-import { FcGoogle} from "react-icons/fc";
+import { FaFacebook} from "react-icons/fa";
 import { AiOutlineTwitter,AiOutlineLinkedin } from "react-icons/ai";
+import Booking from "./Booking";
 
 function Footer() {
     return (
@@ -24,6 +23,7 @@ function Footer() {
                     </ul>
                 </div></Col>
             </Row>
+                {/*<Booking/>*/}
             </div>
 );
 }

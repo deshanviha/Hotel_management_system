@@ -1,58 +1,60 @@
-.btn-primary{
+.btn-primary {
 
     margin-bottom: 20px;
 }
 
 
-.login-form{
+.login-form {
     width: 100%;
     max-width: 380px;
     height: 100%;
     color: white;
-    background-color:#003580;
+    background-color: #003580;
     padding: 70px 30px 30px;
-    box-shadow:7px 7px 60px #000;
+    box-shadow: 7px 7px 60px #000;
 }
 
 
-.login-form::before{
+.login-form::before {
     background: #003580;
 
 }
 
-h2{
+h2 {
     margin-bottom: 20px;
     margin-top: 50px;
     font-family: 'Nunito', sans-serif;
     color: darkgrey;
 }
 
-.col-md-5 Button{
+.col-md-5 Button {
     background: black;
     border: #777777;
     align-content: center;
 
 }
-.col-md-5 h2{
+
+.col-md-5 h2 {
     color: #777777;
 }
-.FaUserAlt{
+
+.FaUserAlt {
 
     color: #61dafb;
 }
-svg{
+
+svg {
 
     color: white;
     margin-left: 50px;
-
 }
 
-svg .FaUserCircle{
-
-
-
-}
-hr{
+hr {
     background-color: #f6f6f6;
 }
 
+.login-form Button {
+    width: 280px;
+    margin-top: 0px;
+
+}

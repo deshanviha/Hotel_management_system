@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar, Nav, Button} from "react-bootstrap";
+import {Navbar, Nav, Button, NavItem} from "react-bootstrap";
 import './navbar.css'
 
 function NavBarar() {
@@ -11,7 +11,7 @@ function NavBarar() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto"/>
-                <Nav className="justify-content-center" activeKey="/home">
+                <Nav className="tab" activeKey="/home">
                     <Nav.Item>
                         <Nav.Link href="/home">SPECIAL</Nav.Link>
                     </Nav.Item>
