@@ -1,1 +1,4 @@
 @import url("https://cdn.syncfusion.com/ej2/material.css");
+.booking Form{
+    border: 4px solid darkmagenta;
+}

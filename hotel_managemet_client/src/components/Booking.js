@@ -3,45 +3,34 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Col, Container, Form, Row} from "react-bootstrap";
 import {DateRangePickerComponent} from '@syncfusion/ej2-react-calendars';
 import './booking.css'
-import {TextField} from "@material-ui/core";
+import Select from "./SelectOption"
+import Textfield from "./Textfield";
 
 function Booking() {
     return (
         <Container>
+            <div className="booking">
             <Form>
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridCity">
-                        <Form.Label>City</Form.Label>
-                        <TextField id="standard-basic" label="Standard" />
-                        <TextField id="filled-basic" label="Filled" variant="filled" />
-                        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+                        <Select text='Hotel' spec='Select our relevant hotel' drop1='Colombo' drop2='Galle' drop3='Kandy' drop4='' drop5='' />
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formGridState">
-                        <Form.Label>State</Form.Label>
-                        <Form.Select defaultValue="Choose...">
-                            <option>Choose...</option>
-                            <option>...</option>
-                        </Form.Select>
+                        <Select text = 'Adults' spec='Number Of adults' drop1='1' drop2='2' drop3='3' drop4='4' drop5='6'/>
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formGridZip">
-                        <Form.Label>Zip</Form.Label>
-                        <Form.Control/>
+                        <Textfield text='Rooms' spec='Number Of Rooms' />
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formGridZip">
                         <Form.Label>Get In</Form.Label>
                         <DateRangePickerComponent/>
                     </Form.Group>
-                    <Form.Group as={Col} controlId="formGridZip">
-                        <Form.Label> </Form.Label>
-                        <Button variant="primary" type="submit">
-                            Submit
-                        </Button>
-                    </Form.Group>
                 </Row>
             </Form>
+            </div>
         </Container>
     );
 }
